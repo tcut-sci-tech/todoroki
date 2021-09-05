@@ -412,3 +412,11 @@ a.topic::after {
  	font-size: 1.7vw;
   text-align: left;
 }
+
+.txt1{
+  line-height: 3vw;
+ 	font-size: 2vw;
+  text-align: center;
+  color: #ff0000;
+  font-weight: 600;
+}
