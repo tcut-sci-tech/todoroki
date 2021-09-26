@@ -353,7 +353,7 @@ a.topic::after {
 
     .second_div {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     height:auto;
     padding:0vw;
     margin: 0vw 1vw 0vw 1vw;
@@ -367,7 +367,7 @@ a.topic::after {
 
     .third_div {
     display: inline-block;
-    width: 60%;
+    width: 100%;
     padding:0vw;
     margin: 0vw 1vw 0vw 1vw;
     text-align: left;
