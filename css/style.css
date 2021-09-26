@@ -354,13 +354,14 @@ a.topic::after {
     .second_div {
     display: inline-block;
     width: 40%;
+    height:auto;
     padding:0vw;
     margin: 0vw 1vw 0vw 1vw;
     }
 
 　　.second_div img {
     display: inline-block;
-	  width: 20%;
+	  width: 100%;
 	  height: auto;
     }
 
