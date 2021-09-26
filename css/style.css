@@ -1,167 +1,434 @@
-<html lang="ja">
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Modern+Antiqua);
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+body {
+  /*background: #151515 url('../images/xx.jpg') no-repeat fixed ;
+  background-size: cover;*/
+  color: #000;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: Raleway, 'HG正楷書体-PRO', "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
 
-<head>
-  <meta charset="UTF-8">
-	<meta name="都市大等々力理科部" content="TCU Todoroki Science Research Club">
-	<meta name="viewport" content="width=device-width">
-	<title>都市大等々力理科部</title>
-	<link rel="stylesheet" media="all" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script src="js/script.js"></script>
-</head>
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
+a{
+	text-decoration: none;
+}
+
+#mainnav a{
+	color: #000;
+	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+#footer{
+	clear: both;
+	padding: 10px 5px 10px 0;
+	text-align: center;
+	font-size: 10px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+  clear: both;
+}
+
+@media only screen and (min-width: 800px){
+	body{
+		font-size:1.7vw;
+	}
+	
+	#wrapper{
+		width: 100%;
+	}
+	
+	#content{
+		width: 80%;
+	}
+	
+	#sidebar{
+		width: 12%;
+		position: fixed;
+		top: 0;
+		right: 4%;
+		background: #fff;
+	}
   
-<body id="top">
-  <div id="wrapper">
-    <div id="sidebar">
-      <div id="sidebarWrap">
-        <nav id="mainnav">
-          <p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
-          <div class="panel" style="display: none;">
-            <ul>
-              <h1><img src="tcut_logo.jpg"></h1>
-              <li><a href="https://tcut-sci-tech.github.io/top/">TOP</a></li>
-              <li><a href="#sec01">活動内容</a></li>
-              <li><a href="#sec02">藍桐祭</a></li>
-              <li><a href="#sec03">部活動見学</a></li>
-              <li><a href="#sec04">Twitter</a></li>
-              <li><a href="#sec05">アクセス</a></li>
-		        </ul>
-		      </div>
-	      </nav>
-      </div>
-    </div>
-	</div>
-  <div id="content">
-    <p id="mainImg"><img src="tcut_img.jpg" width="max" height="100%"></p>
-      
-   
-    
-  <section id="sec01">
-    <div id="introduction">
-      <div class="content_header">
-        <a class="topic" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">活動内容</a>
-	    </div>
-      <div class="about" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">
-        <div class="about_title" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">
-          <h1>都市大等々力理科部とは？</h1>
-	      </div>
-        <div class="about_container">
-          <div class="about_content">
-            <p>理科部では、<b>自然を愛する心</b>と<b>未知なるものへの探求心</b>の２つの心を育てるべく、<b>「科学技術や理学への興味・関心の育成」「科学的思考の育成」「基礎研究への手法・技術力の育成」「他者に伝える力・技術の育成」</b>を行っています。<br>日々の活動は、各分野ごとに５つの班に分かれて専門的な活動を行っています。この他にも、学校行事でのサポーターとして様々な活動の支援も行っています。</p>
-          </div>
-	      </div>
-        <div class="btn timelink">
-          <a href="https://youtu.be/VvVfme_1sMY" class="main"><b>都市大等々力理科部　部活動紹介動画はこちら</b></a>
-        </div>
-	    </div>
-      <div class="mission" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">
-        <span>各班の活動内容</span>
-        <div class="flex_div">
-          <div class="second_div">
-            <img src="脊椎班.jpg">
-          </div>
-          <div class="third_div">
-            <h1>脊椎動物研究班</h1>脊椎動物研究班では、様々な生き物の解剖や骨格標本の作成を行なっています。<br>班員で協力して完成させたときの達成感はひとしおです！
-          </div>
-	  	  </div>
-        <div class="flex_div">
-          <div class="third_div">
-            <h1>昆虫調査班</h1>昆虫調査班では、多摩川河川敷で昆虫採取を行い昆虫の分布などを調べてたり、乾燥標本や樹脂標本を作成したりしています。
-          </div>
-          <div class="second_div">
-            <img src="昆虫班.jpg">
-          </div>
-	  	  </div>
-      <div class="mission1">
-        <img src="水棲班.jpg">
-        <div class="mission1_content">
-          <h1>水棲生物調査班</h1>水棲生物調査班では、水棲生物の解剖、標本作成などの活動を行っています。他にも、多摩川でアミやトラップを使って捕獲した水棲生物を観察、飼育をしています。
-        </div>
-	  	</div>
-      <div class="mission2">
-        <img src="天文班.jpg">
-        <div class="mission2_content">
-          <h1>天文班</h1>天文班では、第１校舎屋上で天体望遠鏡を使った天体観測や星の観測をしています。この他にも、プラネタリウムのドームと投影機を製作しています。
-        </div>
-	  	</div>
-      <div class="mission1">
-        <img src="技術班.jpg">
-        <div class="mission1_content">
-          <h1>技術班</h1>技術班では、エコ１チャレンジカップに出場する電気自動車を製作する車班とプログラミングをメインとしているプログラミング班に分かれて活動しています。
-        </div>
-	  	</div>
-	  </div>
-  </div>
-</section>
+	.panel{
+		display:block !important;
+	}
+	
+	#sidebar h1{
+		padding: 10px 0;
+	}
 
-    
+	#mainnav li{
+		font-size: 14px;
+		padding: 10px 0;
+	}
+}
 
-  <section id="sec02">
-    <div id="introduction">
-      <div class="content_header">
-        <a class="topic" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">藍桐祭</a
-      </div>
-      <div class="flex_div">
-        <div class="first_div">
-          <img src="藍桐祭.jpg">
-        </div>
-        <div class="first_div">
-          <p class="txt">日々の活動で得た学びや成果を理科が好きな方はもちろん、そうでない方にも分かりやすく満足していただけるような展示や説明を行っています。また、普段の活動により得た様々な気付きや知識以外にも夏合宿での経験を通じて研究したことを実物や実体験を添えてお伝えします。<br><a href="https://tcut-sci-tech.github.io/aigirisai/">理科部 藍桐祭特設ページ</a></p>
-        </div>
-      </div>
-  </section>
-    
-    
-<section id="sec03">
-  <div id="introduction">
-    <div class="content_header">
-      <a class="topic" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">部活動見学</a
-    </div>
-        <p class="txt1">新型コロナウイルスの感染拡大に伴い活動が制限されているため、<br>学校説明会開催時に活動をやっていない可能性があります。</p>
-        <div class="flex_div">
-          <div class="first_div">
-            <p class="txt">本校が開催している学校説明会もしくはオープンスクールに参加していただくと部活動見学をする時間がございますので、部活動見学を希望される方はこちらに参加していただきますようお願いします。<br>注）<b>部活動見学</b> と書かれているイベントにご参加ください。<br><a href="https://mirai-compass.net/usr/ttodorokijs/event/evtIndex.jsf">イベント予約サイト (中学)</a><br><a href="https://mirai-compass.net/usr/ttodorokih/event/evtIndex.jsf">イベント予約サイト (高校)</a></p>
-          </div>
-          <div class="second_div">
-            <img src="部活見学.jpg">
-          </div>
-        </div>
-</section>
-    
-    
-<section id="sec04">
-  <div id="introduction">
-    <div class="content_header">
-      <a class="topic" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">Twitter</a>
-	  </div>
-    <a class="twitter-timeline" data-lang="ja" data-width="90%" data-height="800" href="https://twitter.com/tcut_sci_tech?ref_src=twsrc%5Etfw">Tweets by tcut_sci_tech</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-    </script>
-  </div>
-</section>
-    
-      
-<section id="sec05">
-  <div id="introduction">
-    <div class="content_header">
-      <a class="topic" style="position: relative; left: 0px; top: 0px; opacity: 1; transition: all 400ms ease 0s;">アクセス</a
-    </div>
-        <div class="flex_div">
-          <div class="first_div">
-            <p class="txt"><strong>【住所】</strong><br>東京都世田谷区等々力８丁目10-１<br><br><strong>【最寄り駅】</strong><br>東急大井町線　等々力駅　下車 徒歩10分</p>
-          </div>
-          <div class="second_div">
-            <img src="https://www.tcu-todoroki.ed.jp/access/map-main.gif">
-          </div>
-        </div>
-</section>
-      
-      
-<footer id="footer">
-  <strong>Copyright©2021 TCU Todoroki Science Research Club , All Rights Reserved.</strong>
-</footer>
+@media only screen and (max-width: 799px){
+	#sidebar{
+		position: fixed;
+		width: 100%;
+		z-index:500;
+	}
+	
+	#sidebarWrap{
+		position: relative;
+		width: 100%;
+		height: 60px;
+		background: #fff;
+	}
+	
+	#sidebar h1{
+		text-align: center;
+	}
+	
+	#sidebar h1 img{
+		width: auto;
+		max-height: 80px;
+	}
+	
+  a#menu{
+  	display: inline-block;
+  	position: relative;
+  	width: 40px;
+  	height: 40px;
+  	margin: 10px;
+	}
+  
+	#menuBtn{
+  	display: block;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	width: 18px;
+  	height: 2px;
+  	margin: -1px 0 0 -7px;
+  	background: #000;
+  	transition: .2s;
+	}
+
+	#menuBtn:before, #menuBtn:after{
+  	display: block;
+  	content: "";
+  	position: absolute;
+  	top: 50%;
+  	left: 0;
+  	width: 18px;
+  	height: 2px;
+  	background: #000;
+  	transition: .3s;
+	}
+
+	#menuBtn:before{
+  	margin-top: -7px;
+	}
+
+	#menuBtn:after{
+  	margin-top: 5px;
+	}
+
+	a#menu .close{
+  	background: transparent;
+	}
+
+	a#menu .close:before, a#menu .close:after{
+  	margin-top: 0;
+	}
+
+	a#menu .close:before{
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+	}
+
+	a#menu .close:after{
+  	transform: rotate(-135deg);
+  	-webkit-transform: rotate(-135deg);
+	}
+
+	.panel{
+		width: 100%;
+		display: none;
+		overflow: hidden;
+		position: relative;
+		left: 0;
+		top: -10px;
+		z-index: 100;
+	}
+
+	#mainnav{
+		position: absolute;
+		top: 0;
+		width: 100%;
+		text-align: right;
+	}
+
+	#mainnav ul{
+		border-bottom: 1px solid #ccc;
+		background: #fff;
+		text-align: left;
+	}
+
+	#mainnav li a{
+		position: relative;
+		display: block;
+		padding: 10px 10px;
+		border-bottom: 1px solid #ccc;
+		color: #000;
+		font-weight: 400;
+	} 
+}マーク.PNG
 
 
-</body></html>
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,strong {
+  font-weight: bold;
+}
+
+vg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 10px 40px;
+}
+
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+#introduction{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 7vw 3vw 0px 3vw;
+	background: #fff;
+}
+
+a.topic{
+	margin: 0 auto 0 auto;
+	text-decoration: none;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 3.5vw;
+	color: #000;
+}
+
+a.topic::before,
+a.topic::after {
+	content: " - - - - - - - - ";
+}
+
+.about { 
+	margin: 2vw 5vw 5vw 5vw;
+	text-align: left;
+	transition: .8s;
+}
+
+.about h1{
+	font-size: 2.5vw;
+}
+
+.about_content {
+	display: flex;
+	margin: 0;
+}
+
+.about_content p{
+	margin: 0 5vw 0 0;
+	font-size: 1.7vw;
+	line-height: 3.3vw;
+
+}
+
+.about_content img {
+	width: 35vw;
+	height: 22vw;
+}
+
+.mission {
+    position: relative;
+    display: inline-block;
+    margin: 2vw 5vw 0vw 5vw;
+    padding: 6vw 3vw 0vw 3vw;
+    border: dashed 0.4vw #808080;
+    border-radius: 0vw;
+    text-align: left;
+}
+
+.mission span {
+    position: absolute;
+    display: inline-block;
+    top: -1.3vw;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+	-moz-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	-o-transform: translate(-50%);
+	transform: translate(-50%);
+    padding: 0 2vw;
+    line-height: 1;
+    font-size: 3vw;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.mission img {
+	width: 35vw;
+	height: 22vw;
+}
+
+.clear {
+	crear:both;
+}
+
+    .flex_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .first_div {
+    display: inline-block;
+    width: 50%;
+    padding:0vw;
+    margin: 0vw 1vw 0vw 1vw;
+    }
+
+    .first_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
+    }
+
+    .second_div {
+    display: inline-block;
+    width: 40%;
+    height:auto;
+    padding:0vw;
+    margin: 0vw 1vw 0vw 1vw;
+    }
+
+　　.second_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
+    }
+
+    .third_div {
+    display: inline-block;
+    width: 100%;
+    padding:0vw;
+    margin: 0vw 1vw 0vw 1vw;
+    text-align: left;
+    }
+
+    .third_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
+    }
+
+.txt{
+  line-height: 3vw;
+ 	font-size: 1.7vw;
+  text-align: left;
+}
+
+.txt1{
+  line-height: 3vw;
+ 	font-size: 2vw;
+  text-align: center;
+  color: #f00;
+  font-weight: 700;
+}
+
+.btn .main {
+    display: block;
+    width: 100%;
+    border: solid 1px #000;
+    padding: 1.2vw 0;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    font-size: 2.3vw;
+    text-align: center;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    color: #000;
+}
+
+.btn.timelink {
+    margin-top: 1.5vw;
+}
+
+.btn .main:before {
+    content: "";
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: #00a7eb;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.btn .main:hover:before {
+    height: 100%;
+}
+
+.btn .main:hover {
+    color: #FFF;
+}
