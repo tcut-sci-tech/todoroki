@@ -508,3 +508,7 @@ a.topic::after {
 	width: 100%;
 	height: auto;
 }
+
+.color-css{
+  color: white;
+}
