@@ -461,6 +461,16 @@ a.topic::after {
     color: #FFF;
 }
 
+@keyframes arrow {
+  50% {
+    right: 10px;
+  }
+  100% {
+    right: 13px;
+  }
+}
+
+
 .sec01 {
   margin: 0 0 0 0;
 	height: auto;
