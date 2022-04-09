@@ -466,3 +466,34 @@ a.topic::after {
 	height: auto;
 	background-color: #ffffff;
 }
+
+.flex_div {
+  display: flex;
+  justify-content: center;
+}
+
+.a_div {
+  display: inline-block;
+  width: 40%;
+  padding:0vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.a_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.b_div {
+  display: inline-block;
+  width: 70%;
+  padding:0vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.b_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
