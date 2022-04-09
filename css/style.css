@@ -475,6 +475,7 @@ a.topic::after {
   margin: 0 0 0 0;
 	height: auto;
 	background-color: #2857b1;
+  font-color: #ffffff;
 }
 
 .flex_div {
