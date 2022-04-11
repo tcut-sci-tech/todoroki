@@ -471,11 +471,10 @@ a.topic::after {
 }
 
 
-.sec01 {
+.sec03 {
   margin: 0 0 0 0;
 	height: auto;
 	background-color: #2857b1;
-  font-color: #ffffff;
 }
 
 .flex_div {
@@ -483,27 +482,68 @@ a.topic::after {
   justify-content: center;
 }
 
-.a_div {
+.op a:hover{
+	color: #fff;
+	opacity: 0.5;
+}
+
+.twitter a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20twitter.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+.tcu a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20tcu.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+.sci a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20sci.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+.e_div {
   display: inline-block;
   width: 40%;
   padding:0vw;
   margin: 0vw 1vw 0vw 1vw;
 }
 
-.a_div img {
+.e_div img {
   display: inline-block;
 	width: 100%;
 	height: auto;
 }
 
-.b_div {
+.f_div {
   display: inline-block;
   width: 70%;
   padding:0vw;
   margin: 0vw 1vw 0vw 1vw;
 }
 
-.b_div img {
+.f_div img {
   display: inline-block;
 	width: 100%;
 	height: auto;
