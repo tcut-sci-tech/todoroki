@@ -140,6 +140,12 @@ txt6 {
   position: relative;
 }
 
+.absolute {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
 .item1 {
   opacity: 0;
   width: 100vw;
