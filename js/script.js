@@ -1,12 +1,13 @@
-/*---------- ボタン 背景 ---------- */
-$(".openbtn").click(function () {
-  $(this).toggleClass('active');
-  $("#g-nav").toggleClass('panelactive');
-  $(".circle-bg").toggleClass('circleactive');
-});
-
-$("#g-nav a").click(function () {
-  $(".openbtn").removeClass('active');
-  $("#g-nav").removeClass('panelactive');
-  $(".circle-bg").removeClass('circleactive');
+/*---------- スライド ---------- */
+$('.slider').slick({
+  autoplay: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow: '<div class="slick-prev"></div>',
+  nextArrow: '<div class="slick-next"></div>',
+  centerMode: true,
+  variableWidth: true,
+  dots: false,
 });
