@@ -13,7 +13,7 @@ h1 {
   font-size: 5.5vw;
   text-align: center;
   font-weight: 800;
-  color: #000000;
+  color: #000;
 }
 
 h2 {
@@ -22,7 +22,7 @@ h2 {
   font-size: 5.5vw;
   text-align: center;
   font-weight: 800;
-  color: #ffffff;
+  color: #fff;
 }
 
 h3 {
@@ -31,7 +31,7 @@ h3 {
   font-size: 1.5vw;
   text-align: center;
   font-weight: 800;
-  color: #ffffff;
+  color: #fff;
 }
 
 h4 {
@@ -40,7 +40,7 @@ h4 {
   font-size: 2.3vw;
   text-align: center;
   font-weight: 800;
-  color: #ffffff;
+  color: #fff;
 }
 
 h4:hover{
@@ -53,7 +53,7 @@ h5 {
   font-size: 1.7vw;
   text-align: right;
   font-weight: 800;
-  color: #ffffff;
+  color: #fff;
 }
 
 h5:hover{
@@ -66,7 +66,7 @@ h6 {
   font-size: 3.5vw;
   text-align: center;
   font-weight: 800;
-  color: #ffffff;
+  color: #fff;
 }
 
 ul{
@@ -80,7 +80,7 @@ a {
   position: relative;
   font-size: 1.7vw;
   font-weight: 500;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ txt1 {
   position: relative;
   font-size: 2vw;
   font-weight: 500;
-  color: #000000;
+  color: #000;
 }
 
 txt2 {
@@ -97,7 +97,7 @@ txt2 {
   position: relative;
   font-size: 2vw;
   font-weight: 500;
-  color: #ffffff;
+  color: #fff;
 }
 
 txt3 {
@@ -105,7 +105,7 @@ txt3 {
   position: relative;
   font-size: 3vw;
   font-weight: 800;
-  color: #000000;
+  color: #000;
 }
 
 txt4 {
@@ -113,7 +113,7 @@ txt4 {
   position: relative;
   font-size: 2.5vw;
   font-weight: 800;
-  color: #cc0000;
+  color: #f00;
 }
 
 txt5 {
@@ -121,7 +121,7 @@ txt5 {
   position: relative;
   font-size: 3.5vw;
   font-weight: 800;
-  color: #000000;
+  color: #000;
 }
 
 txt6 {
@@ -129,7 +129,7 @@ txt6 {
   position: relative;
   font-size: 3.5vw;
   font-weight: 800;
-  color: #ffffff;
+  color: #fff;
 }
 
 /*---------- 画像切り替え ---------- */
@@ -205,7 +205,7 @@ txt6 {
   position: relative;
   text-decoration: none;
 	display: inline-block;
-	background:#009fe8;
+	background:#00a7ea;
 	color:#fff;
   padding: 10px 40px 10px 30px;
 	border-radius:25px;
@@ -214,11 +214,7 @@ txt6 {
   transition: ease .2s;
   font-size: 2.3vw;
   font-weight: 600;
-  color: #ffffff;
-}
-
-.btn06:hover{
-  background:#4ab8f7;
+  color: #fff;
 }
 
 .btnarrow2::after{
@@ -250,9 +246,9 @@ txt6 {
 .box9 {
   padding: 1vw 1vw 1vw 1vw;
   margin: 1.5vw 0vw 1.5vw 0vw;
-  color: #ff7d6e;
-  background: #f1f1f1;
-  border-top: solid 10px #ff7d6e;
+  color: #fff;
+  background: #fff;
+  border-top: solid 10px #f88;
 }
 
 /*---------- ロード ---------- */
@@ -346,7 +342,7 @@ txt6 {
 .sec02 {
   margin: 0 0 0 0;
 	height: auto;
-  background-color: #000000;
+  background-color: #000;
 	background-image: url("https://tcut-sci-tech.github.io/photo/%E9%83%A8%E6%B4%BB%E5%8B%95%E8%A6%8B%E5%AD%A6.jpg");
   background-size: cover;
 }
@@ -354,13 +350,13 @@ txt6 {
 .sec04 {
   margin: 0 0 0 0;
 	height: auto;
-	background-color: #00a7eb;
+	background-color: #00a7ea;
 }
 
 .sec06 {
   margin: 0 0 0 0;
 	height: auto;
-	background-color: #dcdcdc;
+	background-color: #ccc;
 }
 
 .sec07 {
@@ -448,7 +444,7 @@ txt6 {
   width: 30%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
-  background-color: #009fe8;
+  background-color: #00a7ea;
 }
 
 .c_div img {
@@ -462,7 +458,7 @@ txt6 {
   width: 30%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
-  background-color: #2857b1;
+  background-color: #036eb7;
 }
 
 .d_div img {
