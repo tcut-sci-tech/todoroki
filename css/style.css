@@ -249,7 +249,15 @@ tit5 {
 }
 
 /*---------- ロード ---------- */
-
+#splash {
+  position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background:#fff;
+	text-align:center;
+	color:#fff;
+}
 
 #splash_logo {
 	position: absolute;
